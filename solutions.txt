@@ -60,6 +60,7 @@ FROM products;
 19. SELECT * 
 FROM orders
 WHERE order_date >= '05-05-1997';
-20.
+20. SELECT product_name, quantity_per_unit
+FROM products;
 21.
 22.
