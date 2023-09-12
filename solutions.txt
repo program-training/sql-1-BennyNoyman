@@ -46,7 +46,8 @@ WHERE contact_title IN('Owner', 'CEO');
 14. SELECT *
 FROM products
 WHERE unit_price = (SELECT MAX(unit_price) FROM PRODUCTS);
-15.
+15. SELECT AVG(2023 - extract(year FROM birth_date))
+FROM employees;
 16.
 17.
 18.
