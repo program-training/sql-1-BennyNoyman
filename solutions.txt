@@ -1,8 +1,15 @@
 את הפתרונות שלכם תכתבו כאן, אחרי כל שאלה, תעשו קומיט.
 
-1. SELECT product_id, product_name, category_id FROM products WHERE unit_price > 50
-2.
-3.
+1. SELECT product_id, product_name, category_id
+ FROM products
+ WHERE unit_price > 50;
+2. SELECT *
+FROM customers
+WHERE country LIKE 'Germany';
+SELECT customer_id, company_name
+FROM customers
+WHERE country LIKE 'Germany';
+3. 
 4.
 5.
 6.
