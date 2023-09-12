@@ -51,7 +51,10 @@ FROM employees;
 16. SELECT *
 FROM customers
 WHERE phone LIKE '%123%';
-17.
+17. SELECT * 
+FROM products
+WHERE units_in_stock < 10
+AND discontinued = 0;
 18.
 19.
 20.
