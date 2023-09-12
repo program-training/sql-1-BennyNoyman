@@ -30,7 +30,8 @@ FROM products
 WHERE units_in_stock > 0;
 8. SELECT AVG(unit_price)
 FROM products;
-9.
+9. SELECT product_id, product_name, unit_price*units_on_order AS total_price
+FROM products;
 10.
 11.
 12.
