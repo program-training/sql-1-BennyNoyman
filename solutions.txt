@@ -43,7 +43,9 @@ WHERE extract(year FROM order_date) > 1997;
 13. SELECT *
 FROM customers
 WHERE contact_title IN('Owner', 'CEO');
-14.
+14. SELECT *
+FROM products
+WHERE unit_price = (SELECT MAX(unit_price) FROM PRODUCTS);
 15.
 16.
 17.
