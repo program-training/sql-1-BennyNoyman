@@ -55,7 +55,8 @@ WHERE phone LIKE '%123%';
 FROM products
 WHERE units_in_stock < 10
 AND discontinued = 0;
-18.
+18. SELECT MIN(unit_price) AS LowestPrice, MAX(unit_price) AS HighestPrice
+FROM products;
 19.
 20.
 21.
