@@ -15,7 +15,9 @@ WHERE customer_id LIKE 'ALFKI';
 SELECT order_id, customer_id
 FROM orders
 WHERE customer_id LIKE 'ALFKI';
-4. 
+4. SELECT customer_id,  COUNT(*) AS TotalOrders
+FROM orders
+GROUP BY customer_id;
 5.
 6.
 7.
