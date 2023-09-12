@@ -40,7 +40,9 @@ WHERE discontinued = 1;
 12. SELECT  COUNT(*)
 FROM orders
 WHERE extract(year FROM order_date) > 1997;
-13.
+13. SELECT *
+FROM customers
+WHERE contact_title IN('Owner', 'CEO');
 14.
 15.
 16.
