@@ -65,4 +65,6 @@ FROM products;
 21. SELECT product_id, product_name, unit_price
 FROM products
 WHERE unit_price > (SELECT AVG(unit_price) FROM products)
-22.
+22. SELECT COUNT(*), city
+FROM employees
+GROUP BY city;
